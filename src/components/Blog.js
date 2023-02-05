@@ -5,7 +5,7 @@ import Home from './Home';
 const Blog = () => {
     const navigate=useNavigate();
     const handleInfo=()=>{
-       navigate("/info");
+       navigate("/Info");
     }
      const handleHome=()=>{
        navigate("/Home");
