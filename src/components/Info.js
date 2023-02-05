@@ -1,15 +1,15 @@
 import React from "react";
-import { Link ,useNavigate} from "react-router-dom";
+import { Link , Redirect} from "react-router-dom";
 import Blog from './Blog';
 import Home from './Home';
 
 const Info = () => {
-    const navigate=useNavigate();
+
  const handleBlog=()=>{
-       navigate("/Blog");
+       Redirect("/Blog");
     }
   const handleHome=()=>{
-       navigate("/");
+       Redirect("/");
     }
 
     return (
