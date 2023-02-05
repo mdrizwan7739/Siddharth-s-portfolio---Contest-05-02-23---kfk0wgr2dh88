@@ -9,7 +9,7 @@ const Info = () => {
        navigate("/Blog");
     }
   const handleHome=()=>{
-       navigate("/Home");
+       navigate("/");
     }
 
     return (
