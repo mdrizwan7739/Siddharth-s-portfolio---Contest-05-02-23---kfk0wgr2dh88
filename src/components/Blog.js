@@ -1,14 +1,14 @@
 import React from "react";
-import { Link,useNavigate } from "react-router-dom";
+import { Link,Redirect } from "react-router-dom";
 import Info from './Info';
 import Home from './Home';
 const Blog = () => {
-    const navigate= useNavigate();
+  
     const handleInfo=()=>{
-       navigate("/Info");
+       Redirect("/Info");
     }
      const handleHome=()=>{
-       navigate("/");
+       Redirect("/");
     }
 
     return (
