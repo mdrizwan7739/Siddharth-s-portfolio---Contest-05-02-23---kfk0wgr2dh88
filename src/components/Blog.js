@@ -3,7 +3,7 @@ import { Link,useNavigate } from "react-router-dom";
 import Info from './Info';
 import Home from './Home';
 const Blog = () => {
-    const navigate=useNavigate();
+    const navigate= useNavigate();
     const handleInfo=()=>{
        navigate("/Info");
     }
