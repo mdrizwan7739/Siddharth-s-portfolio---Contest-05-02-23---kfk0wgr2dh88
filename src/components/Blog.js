@@ -8,7 +8,7 @@ const Blog = () => {
        navigate("/Info");
     }
      const handleHome=()=>{
-       navigate("/Home");
+       navigate("/");
     }
 
     return (
